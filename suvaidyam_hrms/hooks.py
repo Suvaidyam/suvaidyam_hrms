@@ -237,3 +237,12 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+add_to_apps_screen = [
+    {
+        "name": "suvaidyam_hrms",
+        "logo": "/assets/suvaidyam/images/suvaidya_logo.png",
+        "title": "Suvaidyam_hrms",
+        # "route": "/app/sva-user",
+    }
+]
