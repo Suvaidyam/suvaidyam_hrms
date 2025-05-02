@@ -1,7 +1,7 @@
 {
  "app": "suvaidyam_hrms",
  "charts": [],
- "content": "[{\"id\":\"RyQQ2KaJUe\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">My Attendance</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"k_K4qnICkq\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Attendance\",\"col\":3}},{\"id\":\"ekCy6uaXaS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Checkin\",\"col\":10}},{\"id\":\"nrS5_Og0V7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Employee Check-in\",\"col\":5}},{\"id\":\"QW3Qmk_HJc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Attendance List\",\"col\":5}}]",
  "creation": "2025-05-02 11:51:40.437166",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,18 +15,40 @@
  "label": "My Attendance",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-02 14:27:18.453423",
+ "modified": "2025-05-02 16:16:18.175754",
  "modified_by": "Administrator",
  "module": "Suvaidyam Hrms",
  "name": "My Attendance",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "Attendance",
+   "number_card_name": "Attendance"
+  },
+  {
+   "label": "Employee Check-in",
+   "number_card_name": "Employee Check-in"
+  },
+  {
+   "label": "Attendance List",
+   "number_card_name": "Attendance List"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "Me",
  "public": 1,
  "quick_lists": [],
  "roles": [],
  "sequence_id": 28.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee Checkin",
+   "link_to": "Employee Checkin",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "My Attendance",
  "type": "Workspace"
 }

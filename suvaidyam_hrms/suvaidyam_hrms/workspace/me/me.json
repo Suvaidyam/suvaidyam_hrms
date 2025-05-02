@@ -1,7 +1,7 @@
 {
  "app": "suvaidyam_hrms",
  "charts": [],
- "content": "[{\"id\":\"OiL5CFZAF8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Me</span>\",\"col\":12}},{\"id\":\"D1DRLd6S0t\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Calendar\",\"col\":3}},{\"id\":\"t57U7532Eb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance Request\",\"col\":3}},{\"id\":\"caqJWA4nJ8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fill Timesheet\",\"col\":3}},{\"id\":\"Y3qva3LzLD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Work From Home Request\",\"col\":3}}]",
+ "content": "[{\"id\":\"OiL5CFZAF8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Me</span>\",\"col\":12}},{\"id\":\"D1DRLd6S0t\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Calendar\",\"col\":3}},{\"id\":\"t57U7532Eb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance Request\",\"col\":3}},{\"id\":\"caqJWA4nJ8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fill Timesheet\",\"col\":3}},{\"id\":\"Y3qva3LzLD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Work From Home Request\",\"col\":3}},{\"id\":\"daMSHb3ZxK\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"MY ATTENDANCE\",\"col\":3}},{\"id\":\"rkb4vePIIe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"MY LEAVE\",\"col\":3}},{\"id\":\"0ptfYofTfk\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"MY TIMESHEET\",\"col\":3}},{\"id\":\"QETZL2QUHU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"My Leave Balance\",\"col\":4}}]",
  "creation": "2025-05-01 16:11:27.765066",
  "custom_blocks": [],
  "docstatus": 0,
@@ -9,17 +9,34 @@
  "for_user": "",
  "hide_custom": 0,
  "icon": "customer",
- "idx": 0,
+ "idx": 6,
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Me",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-02 13:53:11.672452",
+ "modified": "2025-05-02 15:56:17.555914",
  "modified_by": "Administrator",
  "module": "Suvaidyam Hrms",
  "name": "Me",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "MY ATTENDANCE",
+   "number_card_name": "My Attendance"
+  },
+  {
+   "label": "MY LEAVE",
+   "number_card_name": "My Leave"
+  },
+  {
+   "label": "MY TIMESHEET",
+   "number_card_name": "My Timesheet"
+  },
+  {
+   "label": "My Leave Balance",
+   "number_card_name": "My Leave Balance"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
