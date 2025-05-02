@@ -241,7 +241,7 @@ app_license = "mit"
 add_to_apps_screen = [
     {
         "name": "suvaidyam_hrms",
-        "logo": "/assets/suvaidyam/images/suvaidya_logo.png",
+        "logo": "/assets/suvaidyam_hrms/images/suvaidya_logo.png",
         "title": "Suvaidyam_hrms",
         # "route": "/app/sva-user",
     }
