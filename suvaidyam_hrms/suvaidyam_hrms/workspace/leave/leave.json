@@ -1,7 +1,7 @@
 {
  "app": "suvaidyam_hrms",
  "charts": [],
- "content": "[{\"id\":\"kh1Mepu-5T\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Leave</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"kh1Mepu-5T\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Leave</span>\",\"col\":12}},{\"id\":\"NYnEcbZecg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Calendar\",\"col\":3}},{\"id\":\"mIi4TBQX47\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Request\",\"col\":3}},{\"id\":\"jOeK1AKTTl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Compensatory Leave Request\",\"col\":3}},{\"id\":\"oauAN9bTT4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Policy\",\"col\":6}},{\"id\":\"yLae8pf5rs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"My Leave Balance\",\"col\":12}},{\"id\":\"qojc13jhDI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL REMAINING LEAVES\",\"col\":3}}]",
  "creation": "2025-05-02 11:53:32.594601",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,18 +15,60 @@
  "label": "Leave",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-02 14:27:35.721682",
+ "modified": "2025-05-02 16:39:47.507853",
  "modified_by": "Administrator",
  "module": "Suvaidyam Hrms",
  "name": "Leave",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "My Leave Balance",
+   "number_card_name": "My Leave Balance"
+  },
+  {
+   "label": "TOTAL REMAINING LEAVES",
+   "number_card_name": "Total Remaining Leaves"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "Me",
  "public": 1,
  "quick_lists": [],
  "roles": [],
  "sequence_id": 29.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Leave Calendar",
+   "link_to": "Leave Block List",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Leave Request",
+   "link_to": "Compensatory Leave Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Compensatory Leave Request",
+   "link_to": "Compensatory Leave Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Leave Policy",
+   "link_to": "Leave Policy",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Leave",
  "type": "Workspace"
 }
