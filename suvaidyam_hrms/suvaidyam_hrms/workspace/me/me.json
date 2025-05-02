@@ -1,7 +1,7 @@
 {
  "app": "suvaidyam_hrms",
  "charts": [],
- "content": "[{\"id\":\"OiL5CFZAF8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Me</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"OiL5CFZAF8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Me</span>\",\"col\":12}},{\"id\":\"D1DRLd6S0t\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Calendar\",\"col\":3}},{\"id\":\"t57U7532Eb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance Request\",\"col\":3}},{\"id\":\"caqJWA4nJ8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fill Timesheet\",\"col\":3}},{\"id\":\"Y3qva3LzLD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Work From Home Request\",\"col\":3}}]",
  "creation": "2025-05-01 16:11:27.765066",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +15,7 @@
  "label": "Me",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-02 11:39:46.162980",
+ "modified": "2025-05-02 13:53:11.672452",
  "modified_by": "Administrator",
  "module": "Suvaidyam Hrms",
  "name": "Me",
@@ -26,7 +26,40 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 24.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee Calendar",
+   "link_to": "Calendar View",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Work From Home Request",
+   "link_to": "Attendance Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Fill Timesheet",
+   "link_to": "Employee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Attendance Request",
+   "link_to": "Attendance Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Me",
  "type": "Workspace"
 }
