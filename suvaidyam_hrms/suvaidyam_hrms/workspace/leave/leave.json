@@ -1,7 +1,7 @@
 {
  "app": "suvaidyam_hrms",
  "charts": [],
- "content": "[{\"id\":\"kh1Mepu-5T\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Leave</span>\",\"col\":12}},{\"id\":\"NYnEcbZecg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Calendar\",\"col\":3}},{\"id\":\"mIi4TBQX47\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Request\",\"col\":3}},{\"id\":\"jOeK1AKTTl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Compensatory Leave Request\",\"col\":3}},{\"id\":\"oauAN9bTT4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Policy\",\"col\":6}},{\"id\":\"yLae8pf5rs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"My Leave Balance\",\"col\":12}},{\"id\":\"qojc13jhDI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL REMAINING LEAVES\",\"col\":3}}]",
+ "content": "[{\"id\":\"kh1Mepu-5T\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Leave</span>\",\"col\":12}},{\"id\":\"NYnEcbZecg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Calendar\",\"col\":3}},{\"id\":\"mIi4TBQX47\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Request\",\"col\":3}},{\"id\":\"jOeK1AKTTl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Compensatory Leave Request\",\"col\":3}},{\"id\":\"oauAN9bTT4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Policy\",\"col\":6}},{\"id\":\"yLae8pf5rs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"My Leave Balance\",\"col\":11}},{\"id\":\"qojc13jhDI\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL REMAINING LEAVES\",\"col\":3}},{\"id\":\"hitiCkzRlT\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"REMAINING LEAVES ( LEAVE WITHOUT PYA )\",\"col\":4}},{\"id\":\"TLyI9G8S4l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"REMAINING LEAVE ( CASUAL )\",\"col\":3}},{\"id\":\"xXCf0Hgg8A\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"REMAINING LEAVES (COMPENSATORY OF PAY )\",\"col\":3}},{\"id\":\"lQAcnjSDpQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"REMAINING LEAVES ( PRIVILEGE LEAVE )\",\"col\":4}},{\"id\":\"jNHz7q6vEW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"REMAINING LEAVES ( SICK LEAVE)\",\"col\":3}}]",
  "creation": "2025-05-02 11:53:32.594601",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +15,7 @@
  "label": "Leave",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-02 16:39:47.507853",
+ "modified": "2025-05-03 08:00:33.401673",
  "modified_by": "Administrator",
  "module": "Suvaidyam Hrms",
  "name": "Leave",
@@ -27,6 +27,26 @@
   {
    "label": "TOTAL REMAINING LEAVES",
    "number_card_name": "Total Remaining Leaves"
+  },
+  {
+   "label": "REMAINING LEAVES ( LEAVE WITHOUT PYA )",
+   "number_card_name": "Remaining Leaves Leave Without Pay"
+  },
+  {
+   "label": "REMAINING LEAVES ( PRIVILEGE LEAVE )",
+   "number_card_name": "Remaining Leaves Privilege Leave"
+  },
+  {
+   "label": "REMAINING LEAVE ( CASUAL )",
+   "number_card_name": "Remaining Leaves Casual"
+  },
+  {
+   "label": "REMAINING LEAVES ( SICK LEAVE)",
+   "number_card_name": "Remaining Leaves Sick Leave"
+  },
+  {
+   "label": "REMAINING LEAVES (COMPENSATORY OF PAY )",
+   "number_card_name": "Remainging Leaves Compensatory Off"
   }
  ],
  "owner": "Administrator",
