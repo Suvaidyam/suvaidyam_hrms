@@ -1,7 +1,7 @@
 {
  "app": "suvaidyam_hrms",
  "charts": [],
- "content": "[{\"id\":\"TbzSMJnUkq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">My Team</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"TbzSMJnUkq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">My Team</span>\",\"col\":12}},{\"id\":\"TXkSKsyfFK\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"MY TEAM\",\"col\":4}},{\"id\":\"VQxoBdWi1x\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TEAM ATTENDANCE\",\"col\":4}},{\"id\":\"j93nm3-MrQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TEAM LEAVE APPLICATION\",\"col\":4}},{\"id\":\"0CTLWbJfIV\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TIMESHEET\",\"col\":4}}]",
  "creation": "2025-05-01 16:13:20.483503",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,11 +15,28 @@
  "label": "My Team",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-02 11:40:01.459363",
+ "modified": "2025-05-09 15:14:46.748383",
  "modified_by": "Administrator",
  "module": "Suvaidyam Hrms",
  "name": "My Team",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "MY TEAM",
+   "number_card_name": "Employees Joining (This Quarter)"
+  },
+  {
+   "label": "TEAM ATTENDANCE",
+   "number_card_name": "Attendance List"
+  },
+  {
+   "label": "TEAM LEAVE APPLICATION",
+   "number_card_name": "My Leave"
+  },
+  {
+   "label": "TIMESHEET",
+   "number_card_name": "My Timesheet"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,

@@ -1,7 +1,7 @@
 {
  "app": "suvaidyam_hrms",
  "charts": [],
- "content": "[{\"id\":\"Yc9w3CIBnm\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">All Timesheet</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"AXZeLI4qEH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Timesheet\",\"col\":3}},{\"id\":\"m0bEX58GH6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rejected Timesheet\",\"col\":3}},{\"id\":\"_lWxvSr64W\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project\",\"col\":3}},{\"id\":\"NSHjgPoIHf\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Timesheet\",\"col\":4}},{\"id\":\"rEuPf9SUud\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Project list\",\"col\":4}}]",
  "creation": "2025-05-02 11:54:49.669912",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,9 +13,10 @@
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "All Timesheet",
+ "link_to": "Timesheet",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-02 14:27:51.561125",
+ "modified": "2025-05-09 15:11:39.076930",
  "modified_by": "Administrator",
  "module": "Suvaidyam Hrms",
  "name": "All Timesheet",
@@ -23,10 +24,46 @@
  "owner": "Administrator",
  "parent_page": "Me",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Timesheet",
+   "label": "Timesheet",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Project",
+   "label": "Project list",
+   "quick_list_filter": "[]"
+  }
+ ],
  "roles": [],
  "sequence_id": 30.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Timesheet",
+   "link_to": "Timesheet",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rejected Timesheet",
+   "link_to": "Timesheet",
+   "stats_filter": "[[\"Timesheet\",\"status\",\"=\",\"Cancelled\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Project",
+   "link_to": "Project",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "All Timesheet",
  "type": "Workspace"
 }

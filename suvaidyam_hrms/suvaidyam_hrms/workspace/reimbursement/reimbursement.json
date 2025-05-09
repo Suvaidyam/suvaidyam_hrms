@@ -1,7 +1,12 @@
 {
  "app": "suvaidyam_hrms",
- "charts": [],
- "content": "[{\"id\":\"Ix2rlfKeqv\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reimbursement</span>\",\"col\":12}}]",
+ "charts": [
+  {
+   "chart_name": "Expense Claims",
+   "label": "Expense Claims"
+  }
+ ],
+ "content": "[{\"id\":\"Ix2rlfKeqv\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reimbursement</span>\",\"col\":12}},{\"id\":\"RxcGY3D2eM\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Expense Claims\",\"col\":12}},{\"id\":\"WFgsHRmJCP\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Expense Claim\",\"col\":4}},{\"id\":\"yG0vg1iB5k\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Expense Claim Type\",\"col\":4}},{\"id\":\"r9RalE7Lxv\",\"type\":\"card\",\"data\":{\"card_name\":\"Travel\",\"col\":3}}]",
  "creation": "2025-05-02 11:56:57.183148",
  "custom_blocks": [],
  "docstatus": 0,
@@ -14,8 +19,38 @@
  "is_hidden": 0,
  "label": "Reimbursement",
  "link_type": "DocType",
- "links": [],
- "modified": "2025-05-02 14:28:24.181987",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Travel",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Travel Request",
+   "link_count": 0,
+   "link_to": "Travel Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purpose of Travel",
+   "link_count": 0,
+   "link_to": "Purpose of Travel",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-09 15:12:12.470605",
  "modified_by": "Administrator",
  "module": "Suvaidyam Hrms",
  "name": "Reimbursement",
@@ -23,7 +58,18 @@
  "owner": "Administrator",
  "parent_page": "Me",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Expense Claim",
+   "label": "Expense Claim",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Expense Claim Type",
+   "label": "Expense Claim Type",
+   "quick_list_filter": "[]"
+  }
+ ],
  "roles": [],
  "sequence_id": 32.0,
  "shortcuts": [],
